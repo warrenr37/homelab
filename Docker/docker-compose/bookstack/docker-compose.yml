@@ -10,7 +10,7 @@ services:
       - APP_URL=
       - DB_HOST=bookstack_db
       - DB_USER=bookstack
-      - DB_PASS=a4aa4aut49ut094ut90aubt09ag4g
+      - DB_PASS=a4aa4aut49u
       - DB_DATABASE=bookstackapp
     volumes:
       - /mnt/nfs/bookstack:/config
@@ -25,11 +25,11 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - MYSQL_ROOT_PASSWORD=a4aa4aut49ut094ut90aubt09ag4g
+      - MYSQL_ROOT_PASSWORD=a4aa4aut49u
       - TZ=America/Chicago
       - MYSQL_DATABASE=bookstackapp
       - MYSQL_USER=bookstack
-      - MYSQL_PASSWORD=a4aa4aut49ut094ut90aubt09ag4g
+      - MYSQL_PASSWORD=a4aa4aut49u
     volumes:
       - /mnt/nfs/bookstack/mariadb:/config
     restart: unless-stopped
