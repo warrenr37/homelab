@@ -1,0 +1,4 @@
+0 0 1  * * cp -fr /home/pi/docker /mnt/nfs
+0 0 8  * * cp -fr /home/pi/docker /mnt/nfs
+0 0 15 * * cp -fr /home/pi/docker /mnt/nfs
+0 0 22 * * cp -fr /home/pi/docker /mnt/nfs
