@@ -45,7 +45,7 @@ fi
 if [[ $docker == [1] ]]
 then
     apt install docker docker-compose docker.io -Y
-    usermod -aG matthew docker
+    usermod -aG docker matthew
 fi
 
 sleep 3
