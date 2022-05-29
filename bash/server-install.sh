@@ -35,11 +35,11 @@ else
     docker=1
 fi
 
-if [ $ansible == 1]; then
+if [[ $ansible == 1]]; then
     apt install ansible -Y
 fi
 
-if [ $docker == 1]; then
+if [[ $docker == 1]]; then
     apt install docker docker-compose docker.io -Y
     usermod -aG matthew docker
 fi
